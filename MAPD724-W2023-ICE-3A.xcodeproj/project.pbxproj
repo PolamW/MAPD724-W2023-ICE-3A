@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33C9DF329909D1A00C2374E /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DED29909D1A00C2374E /* thunder.ogg */; };
+		E33C9DF429909D1A00C2374E /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DEE29909D1A00C2374E /* yay.ogg */; };
+		E33C9DF529909D1A00C2374E /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DEF29909D1A00C2374E /* engine.ogg */; };
+		E33C9DF629909D1A00C2374E /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF029909D1A00C2374E /* engine.mp3 */; };
+		E33C9DF729909D1A00C2374E /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF129909D1A00C2374E /* thunder.mp3 */; };
+		E33C9DF829909D1A00C2374E /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF229909D1A00C2374E /* yay.mp3 */; };
 		E379B2E629908227003FB87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379B2E529908227003FB87F /* AppDelegate.swift */; };
 		E379B2E829908227003FB87F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E379B2E729908227003FB87F /* GameScene.sks */; };
 		E379B2EC29908227003FB87F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379B2EB29908227003FB87F /* GameScene.swift */; };
@@ -54,13 +60,6 @@
 		E379B35B29908270003FB87F /* explosion6.png in Resources */ = {isa = PBXBuildFile; fileRef = E379B32329908270003FB87F /* explosion6.png */; };
 		E379B35C29908270003FB87F /* explosion4.png in Resources */ = {isa = PBXBuildFile; fileRef = E379B32429908270003FB87F /* explosion4.png */; };
 		E379B35D29908270003FB87F /* explosion5.png in Resources */ = {isa = PBXBuildFile; fileRef = E379B32529908270003FB87F /* explosion5.png */; };
-		E379B35E29908270003FB87F /* life.wav in Resources */ = {isa = PBXBuildFile; fileRef = E379B32729908270003FB87F /* life.wav */; };
-		E379B35F29908270003FB87F /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E379B32829908270003FB87F /* explosion.mp3 */; };
-		E379B36029908270003FB87F /* thunder.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E379B32929908270003FB87F /* thunder.ogg */; };
-		E379B36129908270003FB87F /* yay.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E379B32A29908270003FB87F /* yay.ogg */; };
-		E379B36229908270003FB87F /* engine.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E379B32B29908270003FB87F /* engine.ogg */; };
-		E379B36329908270003FB87F /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E379B32C29908270003FB87F /* coin.wav */; };
-		E379B36429908270003FB87F /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E379B32D29908270003FB87F /* bullet.mp3 */; };
 		E379B36529908270003FB87F /* textureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = E379B32F29908270003FB87F /* textureAtlas.png */; };
 		E379B36629908270003FB87F /* textureAtlas.json in Resources */ = {isa = PBXBuildFile; fileRef = E379B33029908270003FB87F /* textureAtlas.json */; };
 		E379B36729908270003FB87F /* MailPilotDemoProject.tps in Resources */ = {isa = PBXBuildFile; fileRef = E379B33129908270003FB87F /* MailPilotDemoProject.tps */; };
@@ -80,6 +79,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E33C9DED29909D1A00C2374E /* thunder.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = thunder.ogg; sourceTree = "<group>"; };
+		E33C9DEE29909D1A00C2374E /* yay.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = yay.ogg; sourceTree = "<group>"; };
+		E33C9DEF29909D1A00C2374E /* engine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = engine.ogg; sourceTree = "<group>"; };
+		E33C9DF029909D1A00C2374E /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		E33C9DF129909D1A00C2374E /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		E33C9DF229909D1A00C2374E /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		E379B2E229908227003FB87F /* MAPD724-W2023-ICE-3A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE-3A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E379B2E529908227003FB87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E379B2E729908227003FB87F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -128,13 +133,6 @@
 		E379B32329908270003FB87F /* explosion6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion6.png; sourceTree = "<group>"; };
 		E379B32429908270003FB87F /* explosion4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion4.png; sourceTree = "<group>"; };
 		E379B32529908270003FB87F /* explosion5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion5.png; sourceTree = "<group>"; };
-		E379B32729908270003FB87F /* life.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = life.wav; sourceTree = "<group>"; };
-		E379B32829908270003FB87F /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
-		E379B32929908270003FB87F /* thunder.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = thunder.ogg; sourceTree = "<group>"; };
-		E379B32A29908270003FB87F /* yay.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = yay.ogg; sourceTree = "<group>"; };
-		E379B32B29908270003FB87F /* engine.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = engine.ogg; sourceTree = "<group>"; };
-		E379B32C29908270003FB87F /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
-		E379B32D29908270003FB87F /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
 		E379B32F29908270003FB87F /* textureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textureAtlas.png; sourceTree = "<group>"; };
 		E379B33029908270003FB87F /* textureAtlas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = textureAtlas.json; sourceTree = "<group>"; };
 		E379B33129908270003FB87F /* MailPilotDemoProject.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MailPilotDemoProject.tps; sourceTree = "<group>"; };
@@ -164,6 +162,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E33C9DEC29909D1A00C2374E /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				E33C9DED29909D1A00C2374E /* thunder.ogg */,
+				E33C9DEE29909D1A00C2374E /* yay.ogg */,
+				E33C9DEF29909D1A00C2374E /* engine.ogg */,
+				E33C9DF029909D1A00C2374E /* engine.mp3 */,
+				E33C9DF129909D1A00C2374E /* thunder.mp3 */,
+				E33C9DF229909D1A00C2374E /* yay.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
 		E379B2D929908227003FB87F = {
 			isa = PBXGroup;
 			children = (
@@ -202,8 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				E379B2FD29908270003FB87F /* images */,
-				E379B32629908270003FB87F /* audio */,
 				E379B32E29908270003FB87F /* sprites */,
+				E33C9DEC29909D1A00C2374E /* audio */,
 				E379B33229908270003FB87F /* fonts */,
 			);
 			path = Assets;
@@ -256,20 +267,6 @@
 				E379B32529908270003FB87F /* explosion5.png */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		E379B32629908270003FB87F /* audio */ = {
-			isa = PBXGroup;
-			children = (
-				E379B32729908270003FB87F /* life.wav */,
-				E379B32829908270003FB87F /* explosion.mp3 */,
-				E379B32929908270003FB87F /* thunder.ogg */,
-				E379B32A29908270003FB87F /* yay.ogg */,
-				E379B32B29908270003FB87F /* engine.ogg */,
-				E379B32C29908270003FB87F /* coin.wav */,
-				E379B32D29908270003FB87F /* bullet.mp3 */,
-			);
-			path = audio;
 			sourceTree = "<group>";
 		};
 		E379B32E29908270003FB87F /* sprites */ = {
@@ -384,28 +381,24 @@
 				E379B34B29908270003FB87F /* coin02.png in Resources */,
 				E379B36A29908270003FB87F /* Dock51.ttf in Resources */,
 				E379B33829908270003FB87F /* plane1.png in Resources */,
-				E379B35F29908270003FB87F /* explosion.mp3 in Resources */,
 				E379B2F129908227003FB87F /* Main.storyboard in Resources */,
 				E379B34929908270003FB87F /* coin06.png in Resources */,
-				E379B36429908270003FB87F /* bullet.mp3 in Resources */,
 				E379B35B29908270003FB87F /* explosion6.png in Resources */,
 				E379B36829908270003FB87F /* dock51.woff in Resources */,
 				E379B35C29908270003FB87F /* explosion4.png in Resources */,
 				E379B36729908270003FB87F /* MailPilotDemoProject.tps in Resources */,
 				E379B35029908270003FB87F /* smallexplosion1.png in Resources */,
 				E379B34229908270003FB87F /* coin10.png in Resources */,
-				E379B36029908270003FB87F /* thunder.ogg in Resources */,
 				E379B34D29908270003FB87F /* smallexplosion3.png in Resources */,
 				E379B35929908270003FB87F /* explosion7.png in Resources */,
 				E379B33E29908270003FB87F /* planeflash1.png in Resources */,
+				E33C9DF329909D1A00C2374E /* thunder.ogg in Resources */,
 				E379B35629908270003FB87F /* enemy2.png in Resources */,
+				E33C9DF829909D1A00C2374E /* yay.mp3 in Resources */,
 				E379B33B29908270003FB87F /* island.png in Resources */,
-				E379B35E29908270003FB87F /* life.wav in Resources */,
 				E379B2E829908227003FB87F /* GameScene.sks in Resources */,
-				E379B36229908270003FB87F /* engine.ogg in Resources */,
 				E379B34129908270003FB87F /* restartButton.png in Resources */,
 				E379B34A29908270003FB87F /* cloud.png in Resources */,
-				E379B36129908270003FB87F /* yay.ogg in Resources */,
 				E379B35529908270003FB87F /* enemy3.png in Resources */,
 				E379B37E2990836D003FB87F /* ocean.gif in Resources */,
 				E379B36529908270003FB87F /* textureAtlas.png in Resources */,
@@ -414,6 +407,7 @@
 				E379B33729908270003FB87F /* plane2.png in Resources */,
 				E379B34F29908270003FB87F /* coin01.png in Resources */,
 				E379B33A29908270003FB87F /* plane.png in Resources */,
+				E33C9DF629909D1A00C2374E /* engine.mp3 in Resources */,
 				E379B2F329908228003FB87F /* Assets.xcassets in Resources */,
 				E379B33D29908270003FB87F /* clickMeButton.png in Resources */,
 				E379B34029908270003FB87F /* coin09.png in Resources */,
@@ -429,12 +423,14 @@
 				E379B34529908270003FB87F /* smallexplosion5.png in Resources */,
 				E379B36929908270003FB87F /* dock51.woff2 in Resources */,
 				E379B33C29908270003FB87F /* planeflash2.png in Resources */,
+				E33C9DF429909D1A00C2374E /* yay.ogg in Resources */,
 				E379B35329908270003FB87F /* enemy1.png in Resources */,
 				E379B35429908270003FB87F /* explosion2.png in Resources */,
 				E379B35129908270003FB87F /* nextButton.png in Resources */,
 				E379B36629908270003FB87F /* textureAtlas.json in Resources */,
-				E379B36329908270003FB87F /* coin.wav in Resources */,
 				E379B34729908270003FB87F /* coin07.png in Resources */,
+				E33C9DF529909D1A00C2374E /* engine.ogg in Resources */,
+				E33C9DF729909D1A00C2374E /* thunder.mp3 in Resources */,
 				E379B2F629908228003FB87F /* LaunchScreen.storyboard in Resources */,
 				E379B34629908270003FB87F /* coin05.png in Resources */,
 				E379B35229908270003FB87F /* explosion1.png in Resources */,

@@ -1,13 +1,12 @@
-
 import GameplayKit
 import SpriteKit
 
 class CollisionManager
 {
-    // get a regerence to the GameViewController
+    // get a reference to the GameViewController
     public static var gameViewController : GameViewController?
     
-    //Utility Functions
+    // Utility Functions
     public static func SquaredDistance(point1: CGPoint, point2: CGPoint) -> CGFloat
     {
         let Xs: CGFloat = point2.x - point1.x
@@ -15,7 +14,7 @@ class CollisionManager
         return Xs * Xs + Ys * Ys
     }
     
-    //Collision Function
+    // Collision Function
     public static func SquaredRadiusCheck(scene: SKScene, object1: GameObject, object2: GameObject)
     {
         let P1 = object1.position
@@ -24,20 +23,24 @@ class CollisionManager
         let P2Radius = object2.halfHeight!
         let Radii = P1Radius + P2Radius
         
-        //the collision check - overlapping circles
+        // the collision check - overlapping circles
         if(SquaredDistance(point1: P1, point2: P2) < Radii * Radii)
         {
-            //we have a collision
+            // we have a collision
             if(!object2.isColliding!)
             {
-                //if object2 is not already colliding
+                // if object2 is not already colliding
                 switch(object2.name)
                 {
                 case "island":
-                    print("Colliding with island")
+//                    ScoreManager.Score += 100
+//                    gameViewController?.updateScoreLabel()
+                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     break
                 case "cloud":
-                    print("Colliding with cloud")
+//                    ScoreManager.Lives -= 1
+//                    gameViewController?.updateLivesLabel()
+                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     break
                 default:
                     break
@@ -47,5 +50,4 @@ class CollisionManager
             }
         }
     }
-    
 }
