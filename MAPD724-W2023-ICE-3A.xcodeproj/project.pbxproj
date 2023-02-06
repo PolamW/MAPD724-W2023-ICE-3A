@@ -13,6 +13,7 @@
 		E33C9DF629909D1A00C2374E /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF029909D1A00C2374E /* engine.mp3 */; };
 		E33C9DF729909D1A00C2374E /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF129909D1A00C2374E /* thunder.mp3 */; };
 		E33C9DF829909D1A00C2374E /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E33C9DF229909D1A00C2374E /* yay.mp3 */; };
+		E33C9DFA29909F6800C2374E /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C9DF929909F6800C2374E /* ScoreManager.swift */; };
 		E379B2E629908227003FB87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379B2E529908227003FB87F /* AppDelegate.swift */; };
 		E379B2E829908227003FB87F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E379B2E729908227003FB87F /* GameScene.sks */; };
 		E379B2EC29908227003FB87F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E379B2EB29908227003FB87F /* GameScene.swift */; };
@@ -85,6 +86,7 @@
 		E33C9DF029909D1A00C2374E /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
 		E33C9DF129909D1A00C2374E /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		E33C9DF229909D1A00C2374E /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		E33C9DF929909F6800C2374E /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 		E379B2E229908227003FB87F /* MAPD724-W2023-ICE-3A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE-3A.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E379B2E529908227003FB87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E379B2E729908227003FB87F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				E379B3902990872D003FB87F /* CollisionManager.swift */,
+				E33C9DF929909F6800C2374E /* ScoreManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33C9DFA29909F6800C2374E /* ScoreManager.swift in Sources */,
 				E379B2EC29908227003FB87F /* GameScene.swift in Sources */,
 				E379B38329908537003FB87F /* GameProtocol.swift in Sources */,
 				E379B38429908537003FB87F /* GameObject.swift in Sources */,
